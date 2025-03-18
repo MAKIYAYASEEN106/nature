@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-image: url(1.jpg);
+    background-size: cover;
+}
+.main{
+    height: 50px;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+}
+ul li{
+    list-style: none;
+    padding: 25px;
+    float: right;  
+    color: white; 
+    font-size: 20px;   
+}
+ul li:hover{
+    color:rgb(86, 86, 244);
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-top: 10rem;
+    align-items: start;
+    padding-left: 10rem;
+    gap: 20px;
+    flex-direction: column;
+    /* border: 1px solid rgb(234, 231, 231); */
+
+}
+#na{
+    color: white;
+}
+#para{
+    color: white;
+   font-size: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 20%;
+
+}
+#log{
+    color: white;
+    border: 2px solid white;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#log:hover{
+    color:rgb(86, 86, 244) ;
+    background-color: rgb(70, 9, 9);
+}
+#sign{
+    color: white;
+    border: 2px solid white;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#sign:hover{
+    color:rgb(86, 86, 244) ;
+    background-color: rgb(70, 9, 9);
+}
+/* @media only screen and (max-width: 768px)
+ {
+    .main {
+        text-align: center;
+        margin-top: 20px;
+    }
+    ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ul li {
+        float: none;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .box {
+        padding-left: 1rem;
+        padding-top: 10rem;
+        text-align: center;
+        align-items: center;
+    }
+    .btn {
+        width: 60%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #log, #sign {
+        width: 80%;
+        text-align: center;
+        padding-left: 0;
+    }
+} */
+ @media only screen and (max-width:768px) {
+    .main{
+        margin-top: 20px;
+
+    }
+    ul{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    ul li{
+        text-align: center;
+        float: none;
+        padding: 10;
+    }
+    .box{
+        padding-top: 30vh;
+        
+    }
+ }
